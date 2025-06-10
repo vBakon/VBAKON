@@ -1,10 +1,83 @@
 body {
-    background-color: rgb(255, 190, 71);
+    background-color: whitesmoke;
+    margin: 30px;
+    color: black;
+    font-family: 'Outfit';    
+}
+
+header {
+    position: sticky;
+    background-color: whitesmoke;
+    top: 0px;
+    z-index: 9001;
+}
+
+header div {
+    display: inline-block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: x-small;
+    margin: 20px;
+}
+
+#right {
+    position: absolute;
+    right: 0px;
+    top: 17px;
+}
+
+.interact:hover {
+    color: gray;
+}
+
+#floatLogo {
+    float:left;
+    margin-right: 10px;
+}
+
+#title {
+    text-align: center;
+    position: relative;
+    top: 210px;
 }
 
 h1 {
+    font-size:xxx-large;
+    margin-bottom: -15px;
+    letter-spacing: 15px;
+}
+
+h2 {letter-spacing: 7px;}
+
+h3 {letter-spacing: 5px;}
+
+p, a {letter-spacing: 1px;}
+
+#firstImpression {
+    background-image:url(images/placeholder.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: 40pt;
+    min-height: 500px;
+    margin-right: 1px;
+}
+
+#philosophy {
+    min-height: 500px;
+}
+
+#img1 {
+    background-image:url(images/placeholder.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    min-height: 500px;
+    margin-right: 1px;
 }
